@@ -1,0 +1,11 @@
+uuid: 27471830-de5e-49aa-9900-a6c324c0ad3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user_cancel_user_action
+label: 'Cancel the selected user account(s)'
+type: user
+plugin: user_cancel_user_action
+configuration: {  }

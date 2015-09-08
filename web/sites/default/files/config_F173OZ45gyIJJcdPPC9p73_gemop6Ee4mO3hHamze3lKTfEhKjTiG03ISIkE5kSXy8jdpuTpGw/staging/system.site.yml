@@ -1,0 +1,12 @@
+uuid: a97e789a-5554-4720-af00-d5e2788e2291
+name: d8demo-live
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
