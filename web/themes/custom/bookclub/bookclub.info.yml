@@ -6,5 +6,5 @@ package: Custom
 type: theme
 version: 1.0
 core: 8.x
-libraries:
-  - bookclub/blog
+# libraries:
+#   - bookclub/blog
