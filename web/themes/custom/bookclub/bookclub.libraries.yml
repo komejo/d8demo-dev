@@ -1,0 +1,10 @@
+# bookclub.libraries.yml
+blog:
+  version: 1.x
+  css:
+    theme:
+      css/blog.css: {}
+  js:
+    js/blog.js: {}
+  dependencies:
+    - core/jquery
