@@ -1,4 +1,3 @@
-# bookclub.libraries.yml
 blog:
   version: 1.x
   css:
