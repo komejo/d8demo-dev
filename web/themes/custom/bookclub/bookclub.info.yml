@@ -1,7 +1,7 @@
 # bookclub.info.yml
 name: Bookclub Theme
 description: 'D8 theme for ThinkShout Book Club.'
-base theme: classy
+# base theme: classy
 package: Custom
 type: theme
 version: 1.0
