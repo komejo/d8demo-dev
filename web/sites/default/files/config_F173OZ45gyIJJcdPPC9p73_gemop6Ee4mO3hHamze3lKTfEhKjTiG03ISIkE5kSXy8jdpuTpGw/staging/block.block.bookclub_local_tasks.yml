@@ -1,0 +1,22 @@
+uuid: 4cdfc157-41e9-4cf3-8500-bf260320230f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bookclub
+id: bookclub_local_tasks
+theme: bookclub
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  cache:
+    max_age: -1
+  primary: true
+  secondary: true
+visibility: {  }

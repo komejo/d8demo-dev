@@ -1,0 +1,22 @@
+uuid: 407e7343-7a4b-4c4e-9934-52d3223bb463
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - bookclub
+id: bookclub_search
+theme: bookclub
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  cache:
+    max_age: -1
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: b7c377ad-9af6-4ab7-ab06-6c3cd7a0d701
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - bookclub
+id: bookclub_login
+theme: bookclub
+region: sidebar_first
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+  cache:
+    max_age: -1
+visibility: {  }

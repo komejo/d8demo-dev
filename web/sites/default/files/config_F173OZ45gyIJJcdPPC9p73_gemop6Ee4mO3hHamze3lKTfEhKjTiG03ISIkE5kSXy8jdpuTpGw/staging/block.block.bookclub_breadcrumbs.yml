@@ -1,0 +1,22 @@
+uuid: a872662e-bad9-483b-b400-d926dbe69b58
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bookclub
+id: bookclub_breadcrumbs
+theme: bookclub
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+  cache:
+    max_age: -1
+visibility: {  }

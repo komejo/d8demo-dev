@@ -1,0 +1,22 @@
+uuid: 8b370cba-0ae0-4196-8103-3b7e452f3ddc
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - bookclub
+id: bookclub_help
+theme: bookclub
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+  cache:
+    max_age: -1
+visibility: {  }
